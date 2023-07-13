@@ -27,9 +27,13 @@ Your project needs to be configured with the following:
 2. API key from [your Novu dashboard](https://web.novu.co/settings).
 3. SubscriberId to send notifications to.
 
-
 ## Run the project
-To run th project, first, clone the repo.
+
+To run the project, first, clone the repo and install dependencies:
+
+```bash
+npm install
+```
 
 Then, run the development server:
 
