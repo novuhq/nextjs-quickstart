@@ -33,6 +33,10 @@ To run the project, first, clone the repo and install dependencies:
 
 ```bash
 npm install
+#or
+yarn install
+# or
+pnpm install
 ```
 
 Then, run the development server:
