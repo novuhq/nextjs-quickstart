@@ -10,7 +10,6 @@
   },
   "dependencies": {
     "@novu/node": "^0.15.0",
-    "circular-json": "^0.5.9",
     "eslint": "8.41.0",
     "eslint-config-next": "13.4.3",
     "next": "13.4.3",

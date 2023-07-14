@@ -1,5 +1,4 @@
 import { Novu } from '@novu/node';
-import CircularJSON from 'circular-json';
 
 export default async function sendNotifToSub(req, res) {
     try {
@@ -19,10 +18,10 @@ export default async function sendNotifToSub(req, res) {
                 },
             });
             // Return the result as JSON response
-            res.json(CircularJSON.stringify(result));
+            res.json(result.data);
         }
     } catch (error) {
         console.log(error);
-        res.status(500).json(CircularJSON.stringify({ message: error.message }));
+        res.status(500).json({ message: error.message });
     }
 }

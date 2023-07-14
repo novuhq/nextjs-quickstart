@@ -2,7 +2,6 @@ import { sendEmail } from "@/app/utils/novu"
 
 export default async function subscribe(req, res) {
     try {
-        // res.status(200).json({ message: 'working!' })
         if (req.method === 'POST') {
             const { email, description } = req.body
             await sendEmail(email,description)
