@@ -2,7 +2,7 @@ repo_name: novuhq/nextjs-quickstart
 report_id: 7044f217a96ebabeec4c1bb8cae9c20e
 version: 0.1
 repo_type: Public
-timestamp: '2024-01-05T09:22:56+00:00'
+timestamp: '2024-02-29T18:05:36+00:00'
 requested_by: sumitsaurabh927
 provider: github
 branch: main
@@ -30,7 +30,7 @@ tools:
   detection_source_url: https://github.com/novuhq/nextjs-quickstart
   detection_source: Repo Metadata
 - name: Next.js
-  description: 'A small framework for server-rendered universal JavaScript apps '
+  description: A small framework for server-rendered universal JavaScript apps
   website_url: https://nextjs.org/
   version: 13.4.3
   open_source: true
